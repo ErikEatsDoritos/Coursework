@@ -11,7 +11,16 @@ h1{
 
 nav{
     background-color: rgb(236, 206, 36);
+    display: inline-block;
+    width: 80%;
 }
+
+
+nav img{
+   width: 10%; 
+}
+
+
 
 main{
     font-size: 25px;
@@ -22,10 +31,16 @@ footer{
     background-color: rgb(236, 206, 36);
 }
 
-li{
+/* li{
     display: inline;
     width: 5%;
+} */
+
+.grid_class{
+    grid-template-columns: 40% 40%;
 }
+
+
 
 header{
     background-color: rgb(107, 105, 102);
